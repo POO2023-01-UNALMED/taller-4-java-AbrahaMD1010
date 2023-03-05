@@ -3,7 +3,7 @@ package classroom;
 public class Persona {
 
     //static long cedula;
-    long cedula;
+    final long cedula;
     String nombre;
     static int totalPersonas;
     
@@ -33,6 +33,7 @@ public class Persona {
     public Persona(String nombre) {
         this.nombre = "";
         totalPersonas++;
+        cedula=1;
     }
 
     public Persona() {
