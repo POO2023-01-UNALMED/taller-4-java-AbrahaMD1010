@@ -5,7 +5,6 @@ public class Grupo {
     public Persona[] estudiantes;
     public Persona profesor;
     public Asignatura asignatura;
-    //public final int codigo ;
     public final int codigo;
     public String horario;
 

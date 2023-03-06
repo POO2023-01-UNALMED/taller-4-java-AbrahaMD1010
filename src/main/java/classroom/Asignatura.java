@@ -10,7 +10,6 @@ public class Asignatura {
 
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
-        //this(0);
         codigoExterno = 0;
     }
 
